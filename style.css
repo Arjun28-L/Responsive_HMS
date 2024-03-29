@@ -42,7 +42,7 @@ header{
 
 }
 .logo{
-    width: 150px;
+    width: 160px;
 }
 .logo img{
     width: 100%;
@@ -86,7 +86,8 @@ header{
 .right-icons .btn{
 
     padding: 1.2rem 2rem;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
+    border-radius: 2.5px;
     background: var(--maincolor);
     color: white;
     text-decoration: none;
