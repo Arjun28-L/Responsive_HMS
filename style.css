@@ -372,6 +372,9 @@ header{
     top: 10%;
     transition: 0.5s;
 }
+.red {
+    color: red;
+}
 .doc-poster:hover .doc-icons{
     left: 5%;
 }
