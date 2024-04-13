@@ -39,7 +39,16 @@
     background-color:rgba(255, 255, 255, 0.6);
  
     }
-
+   #num_beds{
+    width: 14%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color:rgba(255, 255, 255, 0.6);
+   }
     label {
       font-weight: bold;
     }
@@ -101,6 +110,12 @@
       <div class="form-group">
         <label for="time">Preferred Time</label>
         <input type="time" class="form-control" id="time" required>
+      </div>
+
+      <div class="form-group">
+        <label for="num_beds">Number of Beds to Book:</label>
+        <input type="number" id="num_beds" name="num_beds" min="1" max="3" step="1" value="1" required><br><br>
+
       </div>
 
       <div class="form-group">

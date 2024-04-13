@@ -19,6 +19,7 @@
     
 }
 
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -47,6 +48,7 @@ header{
 .logo img{
     width: 100%;
 }
+
 .navbar a{
     color: var(--textcolor);
     font-size: 1.7rem;

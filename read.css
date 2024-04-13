@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/readbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* 0.8 sets the opacity to 80% */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.essay {
+    min-height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #333;
+}
+
+.essay:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px 0px rgba(0,123,255,0.5);
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+    }
+}
