@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(50, 226, 50);
+    background-color: rgb(86, 173, 86);
 }
 
 .doctor-box {
@@ -11,12 +11,13 @@ body{
     padding: 30px;
     display: inline-block;
     vertical-align: top;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255,0.5);
 }
 
 img {
     max-width: 100%;
     height: auto;
+    border-radius: 3px;
 }
 
 .details {
